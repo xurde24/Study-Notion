@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+
 import "./App.css"
 // Redux
 import { useDispatch, useSelector } from "react-redux"
@@ -51,6 +52,7 @@ function App() {
   return (
     <div className="flex min-h-screen w-screen flex-col bg-richblack-900 font-inter">
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
